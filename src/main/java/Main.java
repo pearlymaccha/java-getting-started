@@ -21,7 +21,7 @@ public class Main extends HttpServlet {
 
   private void showHome(HttpServletRequest req, HttpServletResponse resp)
       throws ServletException, IOException {
-    resp.getWriter().print("Hello Java! Yaaay! :))");
+    resp.getWriter().print("Hello Java! Let's Getting Started! :)) Welcome to Java on Dokku :)))");
   }
 
   private void showDatabase(HttpServletRequest req, HttpServletResponse resp)
