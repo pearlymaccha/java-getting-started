@@ -1,0 +1,33 @@
+[33mcommit 5233f11161411f8b398fe7174e9f6ca96fa525f2[m
+Author: Dolly Ervina <dolly.ervina@gmail.com>
+Date:   Fri Jul 24 12:59:15 2015 +0700
+
+    JAVAUSER1
+
+[1mdiff --git a/pom.xml b/pom.xml[m
+[1mindex 866b3f3..1dc141d 100644[m
+[1m--- a/pom.xml[m
+[1m+++ b/pom.xml[m
+[36m@@ -1,7 +1,5 @@[m
+ <?xml version="1.0" encoding="UTF-8"?>[m
+ <project xmlns="http://maven.apache.org/POM/4.0.0"[m
+[31m-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"[m
+[31m-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">[m
+   <modelVersion>4.0.0</modelVersion>[m
+   <groupId>com.example</groupId>[m
+   <version>1.0-SNAPSHOT</version>[m
+[1mdiff --git a/src/main/java/Main.java b/src/main/java/Main.java[m
+[1mindex c205c1b..4ace4a6 100644[m
+[1m--- a/src/main/java/Main.java[m
+[1m+++ b/src/main/java/Main.java[m
+[36m@@ -21,7 +21,9 @@[m [mpublic class Main extends HttpServlet {[m
+ [m
+   private void showHome(HttpServletRequest req, HttpServletResponse resp)[m
+       throws ServletException, IOException {[m
+[31m-    resp.getWriter().print("Hello Java! Let's Getting Started! :)) Welcome to Java on Dokku :)))");[m
+[32m+[m[32m    resp.getWriter().print("Hello Java! Let's Getting Started! :)) Welcome to Java on Dokku :)))[m
+[32m+[m[41m    [m
+[32m+[m[32m    It's from user1 :D");[m
+   }[m
+ [m
+   private void showDatabase(HttpServletRequest req, HttpServletResponse resp)[m
